@@ -242,17 +242,20 @@
 					3C9B22CF1DB7ACDD0002E89A = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 445HFT775Z;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					3C9B22E31DB7ACDF0002E89A = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 445HFT775Z;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3C9B22CF1DB7ACDD0002E89A;
 					};
 					3C9B22EE1DB7ACDF0002E89A = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 445HFT775Z;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3C9B22CF1DB7ACDD0002E89A;
 					};
@@ -507,6 +510,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -556,6 +560,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -584,6 +589,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9001CE69D74AE0223BD0AF0F /* Pods-sampleNewsReader.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 445HFT775Z;
 				INFOPLIST_FILE = sampleNewsReader/Info.plist;
@@ -598,6 +604,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A8D569D1F9AA2C4A0431A2DD /* Pods-sampleNewsReader.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 445HFT775Z;
 				INFOPLIST_FILE = sampleNewsReader/Info.plist;
